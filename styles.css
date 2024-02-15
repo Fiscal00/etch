@@ -1,0 +1,209 @@
+*{
+    font-family: 'Single Day', cursive;
+    padding: 0px;
+    margin: 0px;
+    background-color:#78fdff;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+#top{
+    display: flex;
+    flex-basis: 100%;
+    justify-content:center;
+    margin-top: 50px;
+}
+#top h1{
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+    font-style: italic;
+    display: flex;
+}
+#top img{
+    margin-right: 50px;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    flex-basis: 5%;
+    flex-grow: 0;
+    margin-left: 30px;
+    object-fit: contain;
+    justify-self: end;
+}
+#container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 350px;
+    flex-basis: 100%;
+    height: 600px;
+    justify-content: center;
+}
+#left{
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220px;
+    border-radius: 25px;
+    background-color: #f7ab48;
+    padding: 5px;
+    border: 3px solid black;
+}
+#left button{
+    display: flex;
+    color: black;
+    border: 1px solid black;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin: 10px 0px;
+    background-color: #fafa75;
+   
+}
+#left button:hover{
+    background-color:#d9c218;
+}
+#left img{
+    background-color: #fafa75;
+}
+#left img:hover{
+    background-color:#d9c218;
+}
+#wheel{
+    display: none;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+input{
+    height: 30px;
+    width: 30px;
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 450px;
+}
+#canvas{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+#canvas *{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0, 0, 0, .3);
+    background: #FFFFFF;
+}
+#canvas *:hover{
+    background-color: silver;
+}
+.slidecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 26px;
+    justify-content: center;
+}
+#slider {
+    appearance: none;
+    width: 80%;
+    height: 25px;
+    outline: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 3px solid black;
+}
+#slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #fafa75;
+    height: 26px;
+    width: 26px;
+    outline: none;
+    border-radius: 0px;
+    opacity: 1;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+#slider::-webkit-slider-thumb:hover{
+    opacity: .7;
+}
+#slider-value{
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+#slider-text{
+    color: white;
+    background-color: #f7ab48;
+    border: 1px solid black;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+#righter{
+    display: flex;
+    background-color: #f7ab48;
+    border: 3px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 220px;
+    margin-top: 80px;
+    padding: 5px;
+    width: 145px;
+}
+#righter *{
+    display: flex;
+    justify-content: center;
+    background: none;
+    margin: 5px;
+}
+#righter h5{
+    font-size: large;
+    background-color: #fafa75;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+#righter input{
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+#righter input:hover{
+    cursor: pointer;
+}
+#pic{
+    display: flex;
+    justify-content: end;
+    flex-basis: 100%;
+    align-items: start;
+    height: 50px;
+}
+#pic img{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 60px;
+    width: 50px;
+    margin-top: 10px;
+    object-fit: contain;
+
+    
+}
